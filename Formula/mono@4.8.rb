@@ -3,13 +3,10 @@ class MonoAT48 < Formula
   homepage "https://www.mono-project.com/"
   url "https://download.mono-project.com/sources/mono/mono-4.8.1.0.tar.bz2"
   sha256 "18cb38a670e51609c36c687ed90ad42cfedabeffd0a2dc5f7f0c46249eb8dbef"
-  revision 1
 
   bottle do
     root_url "https://dl.bintray.com/sh4na/mono-bottles"
-    sha256 "ecd5d2b9f7b291dbaec3d05c29680c8f70bde4808d82320bebe6155cb45c6ab1" => :sierra
-    sha256 "a36188b252d8742d5c9d440d60d5a416328fb3a596b8679a0ec9dd986409e95b" => :el_capitan
-    sha256 "b55ff56c58542d7f771117d511982be934c7d355de97b4e1d61ca55abf05568c" => :yosemite
+    sha256 "a7192c0132a196173a9f7195cdc7d48155958a5bac806353e10e8fd32142fa4b" => :sierra
   end
 
   # xbuild requires the .exe files inside the runtime directories to
