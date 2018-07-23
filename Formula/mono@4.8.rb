@@ -1,4 +1,4 @@
-class Mono < Formula
+class MonoAT48 < Formula
   desc "Cross platform, open source .NET development framework"
   homepage "https://www.mono-project.com/"
   url "https://download.mono-project.com/sources/mono/mono-4.8.1.0.tar.bz2"
