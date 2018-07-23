@@ -6,9 +6,10 @@ class MonoAT48 < Formula
   revision 1
 
   bottle do
-    sha256 "bd914502b997ba891e948791b4f9e4709ccab551c93f3f6389ebdd081a060b19" => :high_sierra
-    sha256 "03bc79c25e36f17ae200a1ff9750e3bdc7e9bb7bbd4c823672b759be310a03fc" => :sierra
-    sha256 "595d90ac60e236fdbb84ac6b6aed4f119e8e3d77c411b3cf727a833e0a6547ba" => :el_capitan
+    root_url "https://dl.bintray.com/sh4na/mono-bottles"
+    sha256 "ecd5d2b9f7b291dbaec3d05c29680c8f70bde4808d82320bebe6155cb45c6ab1" => :sierra
+    sha256 "a36188b252d8742d5c9d440d60d5a416328fb3a596b8679a0ec9dd986409e95b" => :el_capitan
+    sha256 "b55ff56c58542d7f771117d511982be934c7d355de97b4e1d61ca55abf05568c" => :yosemite
   end
 
   # xbuild requires the .exe files inside the runtime directories to
