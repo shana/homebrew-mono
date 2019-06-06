@@ -43,7 +43,7 @@ class MonoAT48 < Formula
       --enable-nls=no
     ]
 
-    args << "--build=" + (MacOS.prefer_64_bit? ? "x86_64": "i686") + "-apple-darwin"
+    args << "--build=" + "x86_64" + "-apple-darwin"
 
     system "./configure", *args
     system "make"
